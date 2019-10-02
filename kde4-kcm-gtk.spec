@@ -1,7 +1,7 @@
 Summary:	Configure the appearance of GTK apps in KDE
 Name:		kde4-kcm-gtk
 Version:	0.5.3
-Release:	1
+Release:	2
 License:	GPL v2+
 Group:		X11/Applications
 Source0:	http://launchpad.net/kcm-gtk/0.5.x/%{version}/+download/kcm-gtk_%{version}.orig.tar.gz
