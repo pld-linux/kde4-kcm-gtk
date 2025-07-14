@@ -24,10 +24,10 @@ appearance of GTK apps in KDE.
 
 %prep
 %setup -q -n kcm-gtk-%{version}
-%patch1 -p1
-%patch2 -p1
-%patch3 -p1
-%patch4 -p1
+%patch -P1 -p1
+%patch -P2 -p1
+%patch -P3 -p1
+%patch -P4 -p1
 
 # fixup for kde-4.5+, see http://bugzilla.redhat.com/628381
 sed -i.kde45 -e 's|^X-KDE-System-Settings-Parent-Category=appearance$|X-KDE-System-Settings-Parent-Category=application-appearance|' kcmgtk.desktop
